@@ -1,0 +1,32 @@
+.experiences-container{    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00FFFF, #7F00FF, #FF0000);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.experience h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.experience h2{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;        
+}
+.experience h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+.experience p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;   
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

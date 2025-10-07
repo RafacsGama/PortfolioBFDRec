@@ -1,0 +1,26 @@
+<Section class=contact-container>
+  <form id="contact" (ngSubmit)="onSubmit()" #contactForm="ngForm">
+    <h1>Fala comigo, será uma honra te atender...</h1>
+    <label>
+      Nome:
+      <input type="text" [(ngModel)]="name" name="name" required />
+    </label>
+
+    <label>
+      E-mail:
+      <input type="email" [(ngModel)]="email" name="email" required />
+    </label>
+
+    <label>
+      Telefone:
+      <input type="tel" [(ngModel)]="phone" name="phone" />
+    </label>
+
+    <label>
+      Mensagem:
+      <textarea [(ngModel)]="message" name="message" required></textarea>
+    </label>
+
+    <button type="submit" [disabled]="!contactForm.form.valid">Enviar</button>
+  </form>
+</Section>

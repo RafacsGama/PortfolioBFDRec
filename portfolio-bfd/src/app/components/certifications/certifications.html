@@ -1,0 +1,10 @@
+<section class="certifications-container">
+    <div class="certification" *ngFor="let certification of certifications()">
+        <h1>Certificações</h1>
+        <h2>{{ certification.title }}</h2>
+        <h3>{{ certification.issuer }}</h3>
+        <p>{{ certification.date }}</p>        
+        <p>{{ certification.credentialUrl }}</p>
+        <img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="Certification Icon" class="certification-icon">
+    </div>
+</section>

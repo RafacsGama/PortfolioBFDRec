@@ -1,0 +1,9 @@
+<section class="experiences-container">
+    <h1>Experiências Profissionais</h1>
+    <div class="experience" *ngFor="let experience of experienceList()">
+        <h2>{{ experience.title }}</h2>
+        <h3>{{ experience.company }} </h3>
+        <p>{{ experience.duration }} </p>
+        <p> {{ experience.responsibilities }}</p>        
+    </div>
+</section>
